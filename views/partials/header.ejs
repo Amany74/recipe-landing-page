@@ -1,0 +1,31 @@
+  <style>
+      .navbar{
+background-image: linear-gradient(145deg,rgb(241, 95, 10),rgb(253, 238, 97));
+}
+.title{
+    font-size: 45px;
+    margin-right: 100px;
+    padding: 0;
+}
+
+  </style>
+  <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <h1 class=" title navbar-brand text-white">Recipe</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse1">
+                <div class="navbar-nav">
+                    <a href="#latest" class="nav-item nav-link active">Home</a>
+                    <a href="../recipes.ejs"class="nav-item nav-link">Recipes</a>
+                    <a href="#latest" class="nav-item nav-link">Submit</a>
+                </div>
+                <form class="d-flex ms-auto">
+                    <input type="text" class="form-control me-sm-2" placeholder="Search">
+                    <button type="submit" class="btn btn-outline-light">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
